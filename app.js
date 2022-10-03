@@ -22,6 +22,7 @@ const updateUI = (data) => {
     //     <p class="bg-info rounded-pill px-4 py-3 text-white"> ${data.types[1].type.name}</p>
     //     </div>
     //     `;
+    
     card.innerHTML = `
         <h3 class="text-center text-uppercase">${data.name}</h3>
         <ul class="mt-3">
